@@ -1,0 +1,19 @@
+Product photos
+
+watercolor-starter-set.jpg
+  "Set of watercolor paints" by Ariel Waldman
+  Source: https://commons.wikimedia.org/wiki/File:Set_of_watercolor_paints_-_Ariel_Waldman.jpg
+  License: Creative Commons Attribution-ShareAlike 2.0 Generic
+  License text: https://creativecommons.org/licenses/by-sa/2.0/
+
+a5-sketchbook.jpg
+  "A notebook with paint brushes" by Tim Arterbury
+  Source: https://commons.wikimedia.org/wiki/File:A_notebook_with_paint_brushes.jpg
+  License: CC0 1.0 Universal
+  License text: https://creativecommons.org/publicdomain/zero/1.0/
+
+brush-pen-set.jpg
+  "Felt-tip Pens" by Chris Hsia
+  Source: https://commons.wikimedia.org/wiki/File:Felt-tip_Pens_%E3%82%B5%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%B3_(195_365_561)_(14677359473).jpg
+  License: Creative Commons Attribution-ShareAlike 2.0 Generic
+  License text: https://creativecommons.org/licenses/by-sa/2.0/

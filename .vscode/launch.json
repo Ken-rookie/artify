@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Artify (Chrome + Supabase)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "chrome",
+      "toolArgs": [
+        "--dart-define=SUPABASE_URL=https://eomyqtrudqlabmfvoksu.supabase.co",
+        "--dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVvbXlxdHJ1ZHFsYWJtZnZva3N1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE5MjY1NjIsImV4cCI6MjEwNzUwMjU2Mn0.ssuLf-SQcL7Qh8n4u5hJCmEUav7lU5mzbxoNjF6rv8o"
+      ]
+    }
+  ]
+}

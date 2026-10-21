@@ -1,0 +1,14 @@
+project_id = "artify"
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]
+
+[functions.create-checkout]
+verify_jwt = true
+
+[functions.paymongo-webhook]
+verify_jwt = false
+
+[functions.payment-return]
+verify_jwt = false

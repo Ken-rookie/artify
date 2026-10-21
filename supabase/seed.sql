@@ -1,0 +1,75 @@
+insert into public.products (
+  id,
+  name,
+  brand,
+  category,
+  description,
+  price,
+  stock,
+  icon_name,
+  tint_hex,
+  image_url,
+  rating,
+  reviews,
+  is_active
+)
+values
+  (
+    '10000000-0000-4000-8000-000000000101',
+    'Watercolor Paint Set',
+    'Artify Studio',
+    'Paints',
+    'A watercolor paint set with a wide range of colors, mixing palette, and brushes for painting and illustration.',
+    1,
+    25,
+    'palette_outlined',
+    'F4DCCB',
+    'assets/products/watercolor-paint-set.jpg',
+    4.8,
+    24,
+    true
+  ),
+  (
+    '10000000-0000-4000-8000-000000000102',
+    'Sketchbook',
+    'Artify Studio',
+    'Paper',
+    'A spiral-bound sketchbook for drawing, sketching, and everyday creative work.',
+    1,
+    40,
+    'description_outlined',
+    'D8E5D4',
+    'assets/products/sketchbook.jpg',
+    4.7,
+    18,
+    true
+  ),
+  (
+    '10000000-0000-4000-8000-000000000103',
+    'Charcoal Pencil Set',
+    'Artify Studio',
+    'Drawing',
+    'A charcoal drawing set with pencils, sticks, and blending tools for sketching and shading.',
+    1,
+    30,
+    'edit_outlined',
+    'D9DDF0',
+    'assets/products/charcoal-pencil-set.jpg',
+    4.9,
+    31,
+    true
+  )
+on conflict (id) do update set
+  name = excluded.name,
+  brand = excluded.brand,
+  category = excluded.category,
+  description = excluded.description,
+  price = excluded.price,
+  stock = excluded.stock,
+  icon_name = excluded.icon_name,
+  tint_hex = excluded.tint_hex,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  reviews = excluded.reviews,
+  is_active = excluded.is_active
+returning id, name, is_active;
